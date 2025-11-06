@@ -20,6 +20,9 @@ docker run -p 8888:8888 --name spark-notebook alexmerced/spark33-notebook
 Then open the Jupyter Notebook URL shown in the terminal (e.g. http://127.0.0.1:8888/?token=...).
 
 ```
+![Alt Text](screens\1.png)
+
+    
 ##  Use Case Description
 
 ###  Scenario
@@ -37,13 +40,21 @@ A bank wants to track **customers**, **accounts**, **transactions**, and **branc
 | **Transactions** | `transaction_id`, `account_id`, `branch_id`, `transaction_date`, `transaction_type`, `amount` |
 
 ---
+![Alt Text](screens\2.png)
+
 
 ###  KPIs Calculated
 - 💰 **Total transaction volume per branch**  
+![Alt Text](screens\3.png)
 - 🏦 **Top 5 customers by total deposit amount**  
-- 📈 **Average transaction amount per account type**  
+![Alt Text](screens\4.png)
+- 📈 **Average transaction amount per account type**
+![Alt Text](screens\5.png)
 - 📅 **Number of transactions per day**  
+![Alt Text](screens\6.png)
 - 🕓 **Iceberg snapshots** to view historical transactions.
+![Alt Text](screens\7.png)
+
 
 ---
 
